@@ -63,7 +63,7 @@ ul li a:hover{
 
 .header{
     width: 100%;
-    background:linear-gradient(to top, rgba(0,0,0,5)50%,rgba(0,0,0,5)50%), url(images/Picture1.jpg);
+    background: no-repeat center/80% url("images/Picture2.jpg");
     background-position: center;
 
     background-size: cover;
