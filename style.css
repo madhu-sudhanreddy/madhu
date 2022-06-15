@@ -3,16 +3,19 @@
     padding: 0;
 
 }
+
 .main{
     width: 100%;
 
-    background:linear-gradient(to top, rgba(0,0,0,5)50%,rgba(0,0,0,5)50%), url(Picture2.jpg);
+    background-image: url(./images/Picture2.jpg);
     background-position: center;
 
     background-size: cover;
     height: 100vh;
 }
-
+h2{
+    text-align: center;
+}
 .navbar{
     width: 1200px;
     
@@ -43,12 +46,13 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 500;
 }
 ul li{
     list-style: none;
     margin-left: 62px;
     margin-top: 27px;
-    font-size: 14px;
+    font-size: 18px;
 }
 ul li a{
     text-decoration: none;
@@ -61,11 +65,39 @@ ul li a:hover{
     color: rgb(58, 39, 10);
 }
 
-.header{
+
+.servicepage{
+    background-image: url("./images/Picture3.jpg");
     width: 100%;
-    background: no-repeat center/80% url("images/Picture2.jpg");
+
+   
     background-position: center;
 
     background-size: cover;
+    
     height: 100vh;
+}
+    
+.aboutus{
+    background-image: url("./images/Picture5.jpg");
+    width: 100%;
+
+   
+    background-position: center;
+
+    background-size: cover;
+    
+    height: 80vh;
+}
+h2{
+    color: bisque;
+    text-align: left;
+}
+p{
+    color: rgb(246, 237, 237);
+    text-align: justify;
+}
+footer{
+    background-color: rgb(101, 143, 34);
+    text-align: center;
 }
