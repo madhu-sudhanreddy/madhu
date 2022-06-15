@@ -101,3 +101,16 @@ footer{
     background-color: rgb(101, 143, 34);
     text-align: center;
 }
+.workflow{
+    width: 100%;
+    background-image: url("../images/Picture7.jpg");
+   
+
+   
+    background-position: center;
+
+    background-size: cover;
+    
+    height: 100vh;
+
+}
