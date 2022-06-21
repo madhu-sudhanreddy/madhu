@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
@@ -36,6 +37,12 @@ h2{
     padding-left: 20px;
     float: left;
     padding-top: 10px;
+}
+.header{
+    background-image: url(..//images/Picture1.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
 }
 .menu{
     width: 400px;
@@ -114,4 +121,36 @@ footer{
     
     height: 100vh;
 
+}
+.nav{
+    width: 100vw;
+    height: 20vh;
+    
+    font-size: x-large;
+    
+    text-align: center;
+    margin: 10px 5px;
+    flex-direction: row;
+    justify-content: space-around;
+    place-items: center;
+}
+
+.btn{
+    text-align: left;
+    width: 90px;
+    height: 40px;
+   
+    padding: 2px;
+   
+    text-decoration: none;
+    
+}
+.section{
+    width: 100vw;
+    height: 60vh;
+    
+    font-size: 50px;
+    
+    text-align: center;
+    margin: 10px 5px;
 }
